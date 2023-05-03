@@ -1,8 +1,10 @@
-import React from 'react'
+import HeroSection from "@/app/components/heroSection"
 
 const page = () => {
   return (
-    <div>Hello Next</div>
+    <>
+      <HeroSection title={"lET\'S WACTH MOVIE TOGETHER"} imageUrl={"/home.svg"} />
+    </>
   )
 }
 
