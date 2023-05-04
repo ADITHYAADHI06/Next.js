@@ -3,6 +3,8 @@ import MovieCard from "@/app/components/MovieCard"
 
 const Movie = async () => {
 
+    await new Promise(resolve => setTimeout(resolve, 2000));
+
     const url = process.env.API_URL;
     const options = {
         method: 'GET',
